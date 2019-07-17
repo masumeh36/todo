@@ -1,0 +1,32 @@
+{
+  "name": "todo",
+  "version": "0.1.0",
+  "homepage": "https://masumeh36.github.io/todoproject",
+  "private": true,
+  "dependencies": {
+    "css": "^2.2.4",
+    "jquery": "^3.4.1",
+    "mobx": "^5.6.0",
+    "mobx-react": "^5.3.6",
+    "react": "^16.6.3",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-app-rewired": "^1.6.2",
+    "react-dom": "^16.6.3",
+    "react-script-tag": "^1.1.2",
+    "react-scripts": "1.1.4",
+    "style": "^0.0.3",
+    "yarn": "^1.17.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "gh-pages": "^2.0.1"
+  }
+}
